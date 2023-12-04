@@ -1,0 +1,14 @@
+{
+  "scripts":{
+    "start" :"npm run sass && node assets/scripts/server.js",
+    "sass" :"node assets/scripts/app.js"
+    
+      },
+    
+  
+  "dependencies": {
+    "express": "^4.18.2",
+    "sass": "^1.69.5",
+    "sass.js": "^0.11.1"
+  }
+}
