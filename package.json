@@ -1,7 +1,7 @@
 {
   "scripts":{
-    "start" :"npm run sass && node assets/scripts/server.js",
-    "sass" :"node assets/scripts/app.js"
+    "start" :"npm run sass && node ./server.js",
+    "sass" :"node ./scripts/convertSass.js"
     
       },
     
